@@ -20,7 +20,7 @@ const services = [
 
 
 
-mongoose.connect("mongodb+srv://user123:user123@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0")
+mongoose.connect("mongodb+srv://:@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0")
   .then(async () => {
     console.log("Connected to MongoDB.");
 
