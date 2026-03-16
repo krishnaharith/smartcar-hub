@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import User from "./models/user.js";
 
-mongoose.connect("mongodb+srv://user123:user123@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0")
+mongoose.connect("mongodb+srv://:@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0")
 .then(async () => {
     const users = await User.find({});
     console.log("=== USERS IN DATABASE ===");
