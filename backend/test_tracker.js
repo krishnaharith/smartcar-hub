@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import Booking from "./models/booking.js";
 import User from "./models/user.js";
 
-mongoose.connect("mongodb+srv://user123:user123@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://sample:sample@cluster0.64xfaci.mongodb.net/smartcar?appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(async () => {
     console.log("Connected to MongoDB. Creating a test tracking booking...");
     
